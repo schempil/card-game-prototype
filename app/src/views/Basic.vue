@@ -1,3 +1,15 @@
 <template>
-    <h1>Basic Game</h1>
+    <BasicGame />
 </template>
+
+<script>
+import BasicGame from "@/components/BasicGame";
+
+export default {
+  name: 'Basic',
+  components: {
+    BasicGame
+
+  }
+}
+</script>

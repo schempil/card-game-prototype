@@ -14,6 +14,11 @@ const routes: Array<RouteConfig> = [
     path: '/basic',
     name: 'Basic',
     component: () => import(/* webpackChunkName: "basic" */ '../views/Basic.vue')
+  },
+  {
+    path: '/adventure',
+    name: 'Adventure',
+    component: () => import(/* webpackChunkName: "basic" */ '../views/Adventure.vue')
   }
 ]
 
