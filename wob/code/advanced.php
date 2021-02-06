@@ -14,6 +14,7 @@ $lang = $_POST["lang"];
 //$lang = 1;
 
 //$bottle = 1;
+//Value is 3 or 5
 $bottle = 2.25 - (0.25 * $_POST["radio_bottle"]);
 
 

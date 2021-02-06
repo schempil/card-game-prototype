@@ -1,5 +1,9 @@
 <template>
-    <AdventureGame />
+    <AdventureGame
+     bottle-size="3"
+     male-players="2"
+     female-players="2"
+    />
 </template>
 
 <script>
