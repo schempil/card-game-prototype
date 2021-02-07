@@ -19,8 +19,14 @@ export default class AdventureGame extends Vue {
   @Prop() readonly femalePlayers!: number
   @Prop() readonly bottleSize!: number
 
+  adventureGameService: AdventureGameService
+
   mounted() {
+
+    console.log('### malePlayers', typeof this.malePlayers, this.malePlayers)
+
     this.adventureGameService = new AdventureGameService(this.malePlayers, this.femalePlayers, this.bottleSize)
+    console.log(this.adventureGameService.calculateGame())
   }
 
 }
