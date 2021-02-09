@@ -23,3 +23,8 @@
     - Basic
     - Adventure
     - Impossible
+    
+## Further ideas
+
+- card game
+- table top game 
