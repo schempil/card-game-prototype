@@ -20,11 +20,7 @@ export default class BrowserGame extends Vue {
   xPosTrees = 0
 
   mounted() {
-    setInterval(() => {
-
-      this.doParallaxStep(0.1)
-
-    }, 1)
+    setInterval(() => this.doParallaxStep(0.1))
   }
 
   doParallaxStep(stepSize: number) {
