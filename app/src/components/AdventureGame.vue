@@ -1,18 +1,18 @@
 <template>
   <div>
-    <h1>AdventureGame</h1>
 
-    <b>Male Players:</b> {{ malePlayers }}<br/>
-    <b>Female Players:</b> {{ femalePlayers }}<br/>
-    <b>Bottle Size:</b> {{ bottleSize }}
+    <BrowserGame />
+
   </div>
 </template>
 
 <script lang="ts">
 import {Component, Prop, Vue} from 'vue-property-decorator';
 import AdventureGameService from "@/services/AdventureGameService";
-
-@Component
+import BrowserGame from "@/components/BrowserGame.vue";
+@Component({
+  components: {BrowserGame}
+})
 export default class AdventureGame extends Vue {
 
   @Prop() readonly malePlayers!: number
