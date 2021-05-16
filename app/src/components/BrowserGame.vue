@@ -37,15 +37,14 @@ export default class BrowserGame extends Vue {
 <style>
 
   #game-wrapper {
-    min-width: 100vw;
     display: flex;
     justify-content: center;
   }
 
   .parallax {
     position: absolute;
-    width: 1088px;
-    height: 640px;
+    width: 100vw;
+    height: 100vh;
     background-size: cover;
     background-repeat: repeat-x;
   }
