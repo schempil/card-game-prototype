@@ -1,8 +1,6 @@
 <template>
   <div>
-
     <BrowserGame />
-
   </div>
 </template>
 
