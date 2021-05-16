@@ -52,23 +52,27 @@ export default class BrowserGame extends Vue {
   }
 
   .background {
-    background-image: url('../assets/game/background/bg.png');
+    /*background-image: url('../assets/game/background/bg.png');*/
+    background-image: url('../assets/game/background2/parallax-demon-woods-bg.png');
   }
 
   .mountains {
-    background-image: url('../assets/game/background/mountains.png');
+    /*background-image: url('../assets/game/background/mountains.png');*/
+    background-image: url('../assets/game/background2/parallax-demon-woods-far-trees.png');
   }
 
   .mountains-close {
-    background-image: url('../assets/game/background/mountains-close.png');
+    /*background-image: url('../assets/game/background/mountains-close.png');*/
+    background-image: url('../assets/game/background2/parallax-demon-woods-mid-trees.png');
   }
 
   .mountains-trees {
-    background-image: url('../assets/game/background/mountains-trees.png');
+    /*background-image: url('../assets/game/background/mountains-trees.png');*/
+    background-image: url('../assets/game/background2/parallax-demon-woods-close-trees.png');
   }
 
   .trees {
-    background-image: url('../assets/game/background/trees.png');
+    /*background-image: url('../assets/game/background/trees.png');*/
   }
 
   .adventurer01 {
