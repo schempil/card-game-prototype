@@ -6,14 +6,18 @@
     <div class="parallax mountains-trees" v-bind:style="{ backgroundPosition: `${ xPosMountainsTrees }px 0px` }"  />
     <div class="parallax trees" v-bind:style="{ backgroundPosition: `${ xPosTrees }px 0px` }" />
 
-    <div class="adventurer01" />
+    <GameWrapper />
+
   </div>
+
 </template>
 
 <script lang="ts">
 import {Component, Vue} from 'vue-property-decorator';
-
-@Component
+import GameWrapper from "@/components/GameWrapper.vue";
+@Component({
+  components: {GameWrapper}
+})
 export default class BrowserGame extends Vue {
 
   xPosMountains = 0
@@ -73,17 +77,6 @@ export default class BrowserGame extends Vue {
 
   .trees {
     /*background-image: url('../assets/game/background/trees.png');*/
-  }
-
-  .adventurer01 {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-position: -6px -11px;
-    transform: scale(4);
-    left: 50px;
-    bottom: 0;
-    background-image: url('../assets/game/adventurers/adventurer01.png');
   }
 
 </style>
