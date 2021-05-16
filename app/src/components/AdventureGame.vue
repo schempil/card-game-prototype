@@ -21,11 +21,13 @@ export default class AdventureGame extends Vue {
 
   adventureGameService: AdventureGameService
 
-  mounted() {
-
-    console.log('### malePlayers', typeof this.malePlayers, this.malePlayers)
-
+  constructor() {
+    super();
     this.adventureGameService = new AdventureGameService(this.malePlayers, this.femalePlayers, this.bottleSize)
+  }
+
+  mounted() {
+    console.log('### malePlayers', typeof this.malePlayers, this.malePlayers)
     console.log(this.adventureGameService.calculateGame())
   }
 
