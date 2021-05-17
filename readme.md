@@ -23,6 +23,7 @@
     - Basic
     - Adventure
     - Impossible
+- Rewrite game wrapper with Pixi.js
     
 ## Further ideas
 
