@@ -1,6 +1,6 @@
 <template>
   <svg height="100vh" width="100vw" style="background: rgba(0, 255, 0, 0); z-index: 1">
-    <image class="unblurred" href="../assets/game/adventurers/adventurer01.png" width="10000"  />
+    <image class="unblurred" href="../assets/game/adventurers/adventurer01.png" width="5000"  />
   </svg>
 </template>
 
